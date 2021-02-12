@@ -55,3 +55,9 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,vscode
 
+#node modules
+node_modules  
+
+#sass
+sass/
+

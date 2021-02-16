@@ -64,7 +64,6 @@ body {
       grid-row: 2 / 3;
       grid-column: 1 / 2; } }
   .card-2__review {
-    font-size: 1.15rem;
     line-height: 1.4;
     color: rgba(207, 207, 207, 0.7); }
 
@@ -81,7 +80,6 @@ body {
       grid-row: 3 / 4;
       grid-column: 1 / 2; } }
   .card-3__review {
-    font-size: 1.15rem;
     line-height: 1.4;
     color: rgba(72, 85, 106, 0.7); }
 
@@ -98,7 +96,6 @@ body {
       grid-row: 5 / 6;
       grid-column: 1 / 2; } }
   .card-4__review {
-    font-size: 1.15rem;
     line-height: 1.4;
     color: rgba(72, 85, 106, 0.7); }
 
@@ -115,7 +112,6 @@ body {
       grid-row: 4 / 5;
       grid-column: 1 / 2; } }
   .card-5__review {
-    font-size: 1.15rem;
     line-height: 1.4;
     color: rgba(236, 242, 248, 0.7); }
 
@@ -174,4 +170,10 @@ body {
   align-content: center; }
 
 .container {
-  margin: 14rem auto; }
+  margin: 14rem auto 2rem auto; }
+  @media only screen and (max-width: 1150px) {
+    .container {
+      margin: 12rem auto 2rem auto; } }
+  @media only screen and (max-width: 560px) {
+    .container {
+      margin: 8rem auto 2rem auto; } }
